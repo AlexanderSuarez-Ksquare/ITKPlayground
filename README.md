@@ -1,4 +1,4 @@
-# Proyecto de Alexander en ITK  2023
+# Proyecto de Alexander en ITK 2023
 
 # Getting Started with Create React App
 
@@ -47,4 +47,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-hey
+hey!

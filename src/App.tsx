@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import Andres from './components/AndresStepperV2';
+import StepperPractice from './components/StepperPractice';
+// import CustomizedSteper from './components/ChatStepper';
+// import { MuiButton } from './components/MuiButton';
+import { MuiStepper } from './components/MuiStepper';
+import StepperPretty from './components/StepperPretty';
+// import { MuiTypography } from './components/MuiTypography';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MuiTypography/>
+      <MuiButton/> */}
+      {/* <MuiStepper/> */}
+      {/* <StepperPretty/> */}
+      {/* <CustomizedSteper/> */}
+      {/* <Andres/> */}
+      <StepperPractice/>
     </div>
   );
 }

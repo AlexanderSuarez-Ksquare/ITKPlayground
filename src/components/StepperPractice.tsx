@@ -16,8 +16,8 @@ const Connector = styled(StepConnector)(() => ({
   },
   [`&.${stepConnectorClasses.active}`]: {
     [`& .${stepConnectorClasses.line}`]: {
-      borderColor: '#0000CD', //<- Borde de connector
-      
+      // borderColor: "linearGradient(89.78deg, #C0D1FF 14.37%, #2A5BDF 110.74%)", //<- Borde de connector
+      borderColor : "linear-gradient(89.78deg, #C0D1FF 14.37%, #2A5BDF 110.74%)",
     },
   },
   [`&.${stepConnectorClasses.completed}`]: {
@@ -28,7 +28,9 @@ const Connector = styled(StepConnector)(() => ({
   [`& .${stepConnectorClasses.line}`]: {
     // borderColor: '#eaeaf0',
     // borderTopWidth: 3,
-    // borderRadius: 1,
+   borderRadius: "8px",
+   borderTopWidth : "8px",
+   borderColor: "#ECECED"
   },
 }));
 
